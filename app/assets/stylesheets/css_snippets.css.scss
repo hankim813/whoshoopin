@@ -1,0 +1,130 @@
+/* Cross browser compatibility */
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+
+/* Improved Link styling */
+
+a {
+
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+	padding: .5em;
+	margin: -.5em;
+}
+
+a:hover {
+	background-color: transparent !important;
+	text-decoration: none !important;
+}
+
+/* CSS snippet tools */
+
+.center { text-align: center;}
+
+.right { text-align: right;}
+
+.left { text-align: left;}
+
+.float-left {	float: left;}
+
+.float-right {	float: right;}
+
+.bold { font-weight: bold;}
+
+.clear:before, 
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.center-page {
+	width: 78%;
+	margin: auto;
+}
+
+.hide {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.vertical-hr {
+	width: 1px; 
+	height: 465px;
+	background-color: #D8DADC;
+	float: left;
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+/* Button */
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-2 {
+	background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2c {
+	border-radius: 5px;
+}
+
+.btn-2c:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.btn-2c:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}

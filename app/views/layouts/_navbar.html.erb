@@ -1,22 +1,28 @@
 <nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Who's Hoopin?</a>
-  </div>
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home", '#' %></li>
-      <li><%= link_to "Find Your Game", '#' %></li> 
-      <li><%= link_to "Vision", '#' %></li>
-      <li><%= link_to "Join Us", '#' %></li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
+      <div class="navi-logo">
+        <%= image_tag "whoshoopinglogo.png" %>
+        <%= link_to "Who's Hoopin?", root_path %>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", '#' %></li>
+        <li><%= link_to "Find Your Game", '#' %></li> 
+        <li><%= link_to "Vision", '#' %></li> 
+        <li><%= link_to "Join Us", '#' %></li> 
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
 </nav>
