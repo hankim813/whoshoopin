@@ -9,6 +9,7 @@ $navbar-border-radius: none;
 @import url(http://fonts.googleapis.com/css?family=Armata);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
 
 
 .body {
@@ -133,7 +134,6 @@ $navbar-border-radius: none;
 	top: -100px;
   overflow: hidden;
   z-index: 1;
-  height: 300px;
 }
 
 .home-hr span {
@@ -143,4 +143,89 @@ $navbar-border-radius: none;
 	padding: 5px; 
 	z-index: 1;
 	font-size: 20px;
+}
+
+.home-container {
+ width: 91%;
+ margin: auto;
+}
+
+.home-tutorial-headers {
+	width: 100%;
+	padding: 15px 15px 15px 0;
+}
+
+.home-tutorial-headers h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+}
+
+.home-tutorial-headers p {
+	font-size: 20px;
+	color: #CE483E;	
+	letter-spacing: 1px;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 1px 1px black;
+}
+
+.home-tutorial-content-container {
+	width: 100%;
+	padding: 15px 15px 15px 0;
+}
+
+.tutorial-box {
+	width: 30%;
+	float: left;
+	display: inline-block;
+	margin: 20px 20px 20px 0px;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 1px #61210B;
+	position: relative;
+	z-index: -1;
+}
+
+.tutorial-box-content {
+	width: 90%;
+	margin: auto;
+	position: relative; 
+	opacity: 1;
+	z-index: 1;
+	padding: 15px;
+}
+
+.tutorial-box-header {
+	width: 100%;
+}
+
+.tutorial-box-header img {
+	max-width: 15%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.tutorial-box-header h1 {
+	font-size: 65px;
+	width: 80%;
+	text-align: center;
+	padding-bottom: 25px;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+	display: inline-block;
+	float: left;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.tutorial-box-p {
+	width: 100%;
+	margin: auto;
+}
+
+.tutorial-box-p p {
+	color: #F2F2F2;
+	font-size: 15px;
 }
