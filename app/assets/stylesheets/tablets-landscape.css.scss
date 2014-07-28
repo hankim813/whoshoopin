@@ -1,0 +1,378 @@
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) {
+
+body {
+	padding-top: 50px;
+}
+
+.body {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+  	z-index: -1;
+  	height: 100%;
+}
+
+.body:before {
+	content: "";
+	background: url('ballislife.jpg');
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	  transform-origin: top left;
+    -webkit-filter: blur(3px);
+  	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+  	filter: blur(3px);
+}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 1px 1px 1px #76231F;
+	padding: 5px;
+	outline: 1px solid transparent !important;
+}
+
+.navbar a {
+	padding: 10px;
+	margin: 5px;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	position: relative;
+	top: 10px;
+}
+
+.navi-logo img {
+	width: 75px;
+	height: auto;
+}
+
+.navi-logo a {
+	color: #76231F;
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Russo One', sans-serif;
+	position: relative;
+	top: 10px;
+}
+
+/* Home */
+
+.iphone-container {
+	width: 45%;
+	float: right;
+	position: relative;
+	top: 75px;
+}
+
+.iphone-container img {
+	height: auto;
+	width: 90%;
+	float: right;
+	position: relative; 
+	right: 24%;
+	z-index: 3;
+	left: 1px;
+}
+
+.home {
+	width: 50%;
+	padding: 25px; 
+	float: left;
+	position: relative;
+	top: 55px;
+	left: 40px;
+}
+
+.home h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+	font-size: 50px;
+}
+
+.home p {
+	color: #FFF;
+	text-shadow: 1px 1px black;
+	font-size: 16px;
+	width: 90%;
+}
+
+.home button a {
+	color: #FFF;
+}
+
+.btn {
+		border: none;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		cursor: pointer;
+		padding: 25px 80px;
+		display: inline-block;
+		margin: 10px 0 10px 0;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		outline: none;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.btn:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.btn-2 {
+		background: #cb4e4e;
+		color: #fff;
+		box-shadow: 0 6px #ab3c3c;
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
+	}
+
+	.btn-2c {
+		border-radius: 5px;
+	}
+
+	.btn-2c:hover {
+		box-shadow: 0 4px #ab3c3c;
+		top: 2px;
+	}
+
+	.btn-2c:active {
+		box-shadow: 0 0 #ab3c3c;
+		top: 6px;
+	}
+
+	#appstore {
+		width: 100px;
+	}
+
+.container {
+	width: 95%;
+	margin: auto;
+}
+
+/* Find your Game */
+
+.home-hr {
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	opacity: 0.4;
+	margin: 0;
+}
+
+.find-your-game {
+	background: url('floor.jpg') no-repeat;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: 15px;
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 35px;
+}
+
+.home-hr span {
+	color: #fff;
+	position: relative;
+	left: 46%;
+	padding: 5px; 
+	z-index: 1;
+	font-size: 20px;
+}
+
+.home-container {
+ width: 91%;
+ margin: auto;
+}
+
+.home-tutorial-headers {
+	width: 100%;
+	padding: 15px 15px 15px 0;
+}
+
+.home-tutorial-headers h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+}
+
+.home-tutorial-headers p {
+	font-size: 20px;
+	color: #CE483E;	
+	letter-spacing: 1px;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 1px 1px black;
+}
+
+.home-tutorial-content-container {
+	width: 100%;
+	padding: 15px 15px 15px 0;
+}
+
+.tutorial-box {
+	width: 31%;
+	float: left;
+	display: inline-block;
+	margin: 15px 15px 15px 0;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 1px #61210B;
+	position: relative;
+	z-index: -1;
+	height: 230px;
+}
+
+.tutorial-box-content {
+	width: 90%;
+	margin: auto;
+	position: relative; 
+	opacity: 1;
+	z-index: 1;
+	padding: 10px;
+}
+
+.tutorial-box-header {
+	width: 100%;
+}
+
+#search {
+	width: 18%;
+}
+
+#checkball {
+	width: 25%;
+	padding-top: 5px;
+}
+
+.tutorial-box-header img {
+	height: auto;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.tutorial-box-header h1 {
+	font-size: 30px;
+	width: 75%;
+	text-align: center;
+	padding: 0 0 25px 0;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+	display: inline-block;
+	float: left;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.tutorial-box-p {
+	width: 100%;
+	margin: auto;
+}
+
+.tutorial-box-p p {
+	color: #F2F2F2;
+	font-size: 13px;
+}
+
+/* Vision */
+
+.vision {
+	background-color: #AB3C3C;
+	width: 100%;
+	padding: 50px 0;
+	position: relative;
+	top: 15px;
+}
+
+.vision-container {
+	width: 90%;
+	margin: auto;
+}
+
+.vision-container h1 {
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+.vision-container p {
+	font-size: 18px;
+	color: #FAFAFA;	
+	letter-spacing: 1px;
+	font-family: 'Armata', sans-serif;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+/* Join Us */
+
+.join {
+	background-color: #2E2E2E;
+	border-top: 3px solid #FFF;	
+	width: 100%;
+	padding: 50px 0;
+	position: relative;
+	margin-top: 15px;
+}
+
+.join-container {
+	width: 90%;
+	margin: auto;
+}
+
+.join-container h1 {
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+.join-container p {
+	font-size: 18px;
+	color: #E6E6E6;	
+	letter-spacing: 1px;
+	font-family: 'Armata', sans-serif;
+	text-align: center;
+}
+
+.social-media-container {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.social-media-container img {
+	width: 100px;
+	margin: 15px;
+	opacity: 0.7;
+	transition: all 0.3s ease-out;
+	border: 3px solid #FFF;
+	padding: 0;
+}
+
+.social-media-container img:hover {
+	opacity: 1;
+}
+
+.footer p {
+	color: #848484;
+	font-size: 13px;
+}
+}
