@@ -39,8 +39,6 @@ body {
   	-o-filter: blur(3px);
   	-ms-filter: blur(3px);
   	filter: blur(3px);
-
-
 }
 
 /* Navbar */
@@ -48,6 +46,7 @@ body {
 .navbar {
 	box-shadow: 1px 1px 1px #76231F;
 	padding: 5px;
+	outline: 1px solid transparent !important;
 }
 
 .navbar a {
@@ -160,6 +159,14 @@ body {
 .home-tutorial-headers {
 	width: 100%;
 	padding: 15px 15px 15px 0;
+}
+
+#search {
+	width: 13%;
+}
+
+#checkball {
+	width: 25%;
 }
 
 .home-tutorial-headers h1 {

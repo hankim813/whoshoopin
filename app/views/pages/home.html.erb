@@ -25,12 +25,12 @@
 				<div class="tutorial-box">
 					<div class="tutorial-box-content">
 						<div class="tutorial-box-header clear">
-							<%= image_tag "map.png", width: "12%" %>
+							<%= image_tag "map.png", id: "search" %>
 							<h1>Search</h1>
 						</div><!-- Tutorial Header -->
 
 						<div class="tutorial-box-p">
-							<p>Tired of showing up to empty courts? No more 21's, hustle, or shootarounds with chumps. Search for your next competitive pick up game.</p>
+							<p id="search-p">Tired of showing up to empty courts? No more 21's, hustle, or shootarounds with chumps. Search for your next competitive pick up game.</p>
 						</div><!-- Tutorial Paragraph -->
 					</div><!--Tutorial Content Ends -->
 				</div><!-- 1st Tutorial Box Ends -->
@@ -38,7 +38,7 @@
 				<div class="tutorial-box">
 					<div class="tutorial-box-content">
 						<div class="tutorial-box-header clear">
-							<%= image_tag "checkin.png", width: "25%" %>
+							<%= image_tag "checkin.png", id: "checkball" %>
 							<h1>Check in.</h1>
 						</div><!-- Tutorial Header -->
 
@@ -51,7 +51,7 @@
 				<div class="tutorial-box">
 					<div class="tutorial-box-content">
 						<div class="tutorial-box-header clear">
-							<%= image_tag "ball.png", width: "25%" %>
+							<%= image_tag "ball.png", id: "checkball" %>
 							<h1>Ball's in!</h1>
 						</div><!-- Tutorial Header -->
 
@@ -63,9 +63,8 @@
 
 		</div><!-- Home Tutorial Content Container Ends -->
 	</div><!-- Home Container Ends -->
-	<div id="vision"></div>
 </div><!-- Floor BG Ends -->
-<div class="vision">
+<div class="vision" id="vision">
 	<div class="vision-container">
 		<h1>Our Vision</h1>
 		<br><br>

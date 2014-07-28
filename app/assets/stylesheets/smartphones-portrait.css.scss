@@ -1,8 +1,3 @@
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) 
-{/* Styles */} 
-
-
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 	body {
@@ -21,6 +16,12 @@
 		font-family: 'Russo One', sans-serif;
 		position: relative;
 		top: 2px;
+	}
+
+	.navbar {
+		box-shadow: 1px 1px 1px #76231F;
+		padding: 5px;
+		outline: 1px solid transparent;
 	}
 
 	.iphone-container {
@@ -169,6 +170,15 @@
 		width: 100%;
 	}
 
+	#search {
+		width: 15%;
+		margin-left: 8px;
+	}
+
+	#checkball {
+		width: 25%;
+	}
+
 	.tutorial-box-header img {
 		height: auto;
 		float: left;
@@ -283,5 +293,4 @@
 		color: #848484;
 		font-size: 10px;
 	}
-
 }
