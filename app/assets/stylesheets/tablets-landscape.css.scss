@@ -1,5 +1,5 @@
 /* iPads (landscape) ----------- */
-@media only screen and (max-width : 1024px) {
+@media only screen and (min-width: 769px) and (max-width : 1048px) {
 
 body {
 	padding-top: 80px;
@@ -38,9 +38,10 @@ body {
 
 .navbar a {
 	padding: 15px;
-	margin: 20px;
+	margin: 10px;
 	font-family: 'Armata', sans-serif;
 	font-size: 15px;
+	top: 5px;
 }
 
 .navi-logo img {
