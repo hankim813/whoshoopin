@@ -11,6 +11,9 @@ $navbar-border-radius: none;
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(http://fonts.googleapis.com/css?family=Russo+One);
 
+body {
+	padding-top: 100px;
+}
 
 .body {
     position: absolute;
@@ -134,6 +137,7 @@ $navbar-border-radius: none;
 	top: -100px;
   overflow: hidden;
   z-index: 1;
+  padding-bottom: 35px;
 }
 
 .home-hr span {
@@ -179,11 +183,12 @@ $navbar-border-radius: none;
 	width: 30%;
 	float: left;
 	display: inline-block;
-	margin: 20px 20px 20px 0px;
+	margin: 15px 15px 15px 0;
 	background-color: rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 1px #61210B;
 	position: relative;
 	z-index: -1;
+	height: 235px;
 }
 
 .tutorial-box-content {
@@ -200,19 +205,17 @@ $navbar-border-radius: none;
 }
 
 .tutorial-box-header img {
-	max-width: 15%;
 	height: auto;
 	float: left;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 15px;
 }
 
 .tutorial-box-header h1 {
-	font-size: 65px;
-	width: 80%;
+	font-size: 50px;
+	width: 75%;
 	text-align: center;
-	padding-bottom: 25px;
+	padding: 0 0 25px 0;
 	color: #FFF;
 	text-shadow: 2px 2px black;
 	display: inline-block;
