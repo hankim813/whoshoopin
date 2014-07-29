@@ -18,27 +18,18 @@ body {
 	padding-top: 100px;
 }
 
-.body {
-    position: absolute;
-    top: 75px; bottom: 0; left: 0; right: 0;
-  	z-index: -1;
-  	height: 100%;
-}
-
-.body:before {
-	content: "";
-	background: url('ballislife.jpg');
-	background-size: cover;
-	position: absolute;
+.background {
 	width: 100%;
 	height: 100%;
-
-	  transform-origin: top left;
-    -webkit-filter: blur(3px);
+	background-image: url('ballislife.jpg');
+	background-size: cover;
+	 	-webkit-filter: blur(3px);
   	-moz-filter: blur(3px);
   	-o-filter: blur(3px);
   	-ms-filter: blur(3px);
   	filter: blur(3px);
+  	position: absolute;
+  	z-index: -10;
 }
 
 /* Navbar */

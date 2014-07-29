@@ -4,29 +4,21 @@
 		padding-top: 10px;
 	}
 
-	.body {
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-  	z-index: -1;
-	  height: 100%;
+	.background {
+	width: 100%;
+	height: 100%;
+	background-image: url('ballislife.jpg');
+	background-size: cover;
+	 	-webkit-filter: blur(3px);
+  	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+  	filter: blur(3px);
+  	position: absolute;
+  	z-index: -10;
+  	top: 55px;
 	}
 
-	.body:before {
-		content: "";
-		background: url('ballislife.jpg');
-		background-size: cover;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 60px;
-
-		  transform-origin: top left;
-	    -webkit-filter: blur(3px);
-	  	-moz-filter: blur(3px);
-	  	-o-filter: blur(3px);
-	  	-ms-filter: blur(3px);
-	  	filter: blur(3px);
-	}
 
 	.navbar {
 		box-shadow: 1px 1px 1px #76231F;
@@ -150,7 +142,7 @@
 		width: 100%;
 		overflow: hidden;
 		position: relative;
-		top: 16px;
+		top: 14px;
 	  overflow: hidden;
 	  z-index: 1;
 	  padding-bottom: 35px;
