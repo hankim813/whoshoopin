@@ -82,6 +82,76 @@ body {
 	color: #FFF;
 }
 
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 10px 15px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-2 {
+	background: #047BE6;
+	color: #fff;
+	box-shadow: 0 6px #1362A7;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2c {
+	border-radius: 5px;
+}
+
+.btn-2c:hover {
+	box-shadow: 0 4px #1362A7;
+	top: 2px;
+}
+
+.btn-2c:active {
+	box-shadow: 0 0 #1362A7;
+	top: 6px;
+}
+
+#appstore {
+	width: 200px;
+}
+
+#android {
+	font-size: 12px;
+	margin-top: 15px;
+	padding-left: 3px;
+	color: #E6E6E6;
+}
+
+#android a {
+	color: #F68122;
+}
+
+#android a:hover {
+	color: #F79F57;	
+}
+
 .container {
 	width: 95%;
 	margin: auto;
