@@ -7,11 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <%= csrf_meta_tags %>
   <%= favicon_link_tag 'favicon.ico' %>
-</head>
+  </head>
 <body>
 
 <%= render 'layouts/navbar' %>
 <%= yield %>
+
+<script>
+  smoothScroll.init({
+  	speed: 600, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeInOutCubic', // Easing pattern to use
+  });
+</script>
+
 
 </body>
 </html>
