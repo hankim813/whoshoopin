@@ -1,7 +1,7 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) and (max-width : 568px) {
 	body {
-		padding-top: 10px;
+		padding-top: 0;
 	}
 
 	.background {
@@ -16,7 +16,7 @@
   	filter: blur(3px);
   	position: absolute;
   	z-index: -10;
-  	top: 55px;
+  	top: 60px;
 	}
 
 
@@ -76,7 +76,7 @@
 	.home p {
 		color: #FFF;
 		text-shadow: 1px 1px black;
-		font-size: 12px;
+		font-size: 11px;
 		width: 100%;
 		position: relative;
 		top:-25px;
@@ -89,9 +89,9 @@
 		color: inherit;
 		background: none;
 		cursor: pointer;
-		padding: 15px 75px;
+		padding: 10px 70px;
 		display: inline-block;
-		margin: -10px 0 10px 0;
+		margin: -18px 0 10px 0;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: 700;
@@ -134,7 +134,7 @@
 	}
 
 	#appstore {
-		width: 100px;
+		width: 70px;
 	}
 
 	.find-your-game {
