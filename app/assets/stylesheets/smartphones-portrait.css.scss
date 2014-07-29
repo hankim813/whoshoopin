@@ -38,7 +38,6 @@
 		float: right;
 		position: relative; 
 		z-index: 3;
-		top: 45px;
 		left: 1px;
 	}
 
@@ -96,9 +95,9 @@
 		transition: all 0.3s;
 	}
 	.btn-2 {
-		background: #cb4e4e;
+		background: #047BE6;
 		color: #fff;
-		box-shadow: 0 6px #ab3c3c;
+		box-shadow: 0 6px #1362A7;
 		-webkit-transition: none;
 		-moz-transition: none;
 		transition: none;
@@ -109,12 +108,12 @@
 	}
 
 	.btn-2c:hover {
-		box-shadow: 0 4px #ab3c3c;
+		box-shadow: 0 4px #1362A7;
 		top: 2px;
 	}
 
 	.btn-2c:active {
-		box-shadow: 0 0 #ab3c3c;
+		box-shadow: 0 0 #1362A7;
 		top: 6px;
 	}
 
@@ -142,7 +141,7 @@
 
 	.home-tutorial-headers p {
 		font-size: 14px;
-		color: #CE483E;	
+		color: #F2F2F2;	
 		letter-spacing: 1px;
 		font-family: 'Russo One', sans-serif;
 		text-shadow: 1px 1px black;
@@ -210,7 +209,7 @@
 	}
 
 	.vision {
-		background-color: #AB3C3C;
+		background-color: #0E5ED7;
 		width: 100%;
 		padding: 50px 0;
 		position: relative;
