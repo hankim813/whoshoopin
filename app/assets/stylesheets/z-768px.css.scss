@@ -1,38 +1,10 @@
-$navbar-default-bg: #F68122;
-$navbar-default-link-color: #FFF;
-$navbar-border-radius: none;
-$navbar-default-toggle-hover-bg: #D96E16;
-$navbar-default-toggle-icon-bar-bg: #FFF;
-$navbar-default-toggle-border-color: none;
-
-
-@import 'bootstrap';
-
-@import url(http://fonts.googleapis.com/css?family=Russo+One);
-@import url(http://fonts.googleapis.com/css?family=Armata);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
-@import url(http://fonts.googleapis.com/css?family=Russo+One);
-
-
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 830px) {
 
 body {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
-.background {
-	width: 100%;
-	height: 100%;
-	background-image: url('ballislife.jpg');
-	background-size: cover;
-	 	-webkit-filter: blur(3px);
-  	-moz-filter: blur(3px);
-  	-o-filter: blur(3px);
-  	-ms-filter: blur(3px);
-  	filter: blur(3px);
-  	position: absolute;
-  	z-index: -10;
-}
 
 /* Navbar */
 
@@ -43,21 +15,23 @@ body {
 }
 
 .navbar a {
-	padding: 15px;
-	margin: 20px;
+	padding: 10px;
+	margin: 5px;
 	font-family: 'Armata', sans-serif;
-	font-size: 15px;
+	font-size: 12px;
+	position: relative;
+	top: 10px;
 }
 
 .navi-logo img {
-	width: 90px;
+	width: 75px;
 	height: auto;
 }
 
 .navi-logo a {
 	color: #76231F;
 	padding: 10px;
-	font-size: 35px;
+	font-size: 28px;
 	font-family: 'Russo One', sans-serif;
 	position: relative;
 	top: 10px;
@@ -66,20 +40,20 @@ body {
 /* Home */
 
 .iphone-container {
-	width: 50%;
-	padding: 25px;
+	width: 45%;
 	float: right;
 	position: relative;
-	top: 75px;
+	top: 55px;
 }
 
 .iphone-container img {
-	width: auto;
-	height: 100%;
+	height: auto;
+	width: 85%;
 	float: right;
 	position: relative; 
 	right: 24%;
 	z-index: 3;
+	left: 1px;
 }
 
 .home {
@@ -88,7 +62,7 @@ body {
 	float: left;
 	position: relative;
 	top: 55px;
-	left: 40px;
+	left: 15px;
 }
 
 .home h1 {
@@ -101,28 +75,68 @@ body {
 .home p {
 	color: #FFF;
 	text-shadow: 1px 1px black;
-	font-size: 18px;
-	width: 60%;
+	font-size: 16px;
+	width: 90%;
 }
 
 .home button a {
 	color: #FFF;
 }
 
-#android {
-	font-size: 15px;
-	margin-top: 15px;
-	padding-left: 3px;
-	color: #E6E6E6;
-}
+.btn {
+		border: none;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		cursor: pointer;
+		padding: 25px 80px;
+		display: inline-block;
+		margin: 10px 0 20px 0;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		outline: none;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
 
-#android a {
-	color: #F68122;
-}
+	.btn:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.btn-2 {
+		background: #047BE6;
+		color: #fff;
+		box-shadow: 0 6px #1362A7;
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
+	}
 
-#android a:hover {
-	color: #F79F57;	
-}
+	.btn-2c {
+		border-radius: 5px;
+	}
+
+	.btn-2c:hover {
+		box-shadow: 0 4px #1362A7;
+		top: 2px;
+	}
+
+	.btn-2c:active {
+		box-shadow: 0 0 #1362A7;
+		top: 6px;
+	}
+
+	#appstore {
+		width: 150px;
+	}
 
 .container {
 	width: 95%;
@@ -144,7 +158,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	top: -95px;
+	top: 45px;
   overflow: hidden;
   z-index: 1;
   padding-bottom: 35px;
@@ -167,14 +181,6 @@ body {
 .home-tutorial-headers {
 	width: 100%;
 	padding: 15px 15px 15px 0;
-}
-
-#search {
-	width: 13%;
-}
-
-#checkball {
-	width: 25%;
 }
 
 .home-tutorial-headers h1 {
@@ -206,7 +212,7 @@ body {
 	box-shadow: 2px 2px 1px #61210B;
 	position: relative;
 	z-index: -1;
-	height: 235px;
+	height: 230px;
 }
 
 .tutorial-box-content {
@@ -215,11 +221,20 @@ body {
 	position: relative; 
 	opacity: 1;
 	z-index: 1;
-	padding: 15px;
+	padding: 10px;
 }
 
 .tutorial-box-header {
 	width: 100%;
+}
+
+#search {
+	width: 18%;
+}
+
+#checkball {
+	width: 25%;
+	padding-top: 5px;
 }
 
 .tutorial-box-header img {
@@ -230,7 +245,7 @@ body {
 }
 
 .tutorial-box-header h1 {
-	font-size: 50px;
+	font-size: 30px;
 	width: 75%;
 	text-align: center;
 	padding: 0 0 25px 0;
@@ -248,7 +263,7 @@ body {
 
 .tutorial-box-p p {
 	color: #F2F2F2;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 /* Vision */
@@ -258,7 +273,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	top: -95px;
+	top: 15px;
 }
 
 .vision-container {
@@ -269,13 +284,13 @@ body {
 .vision-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 70px;
+	font-size: 50px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .vision-container p {
-	font-size: 22px;
+	font-size: 18px;
 	color: #FAFAFA;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -291,7 +306,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	margin-top: -95px;
+	margin-top: 15px;
 }
 
 .join-container {
@@ -302,13 +317,13 @@ body {
 .join-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 70px;
+	font-size: 50px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .join-container p {
-	font-size: 22px;
+	font-size: 18px;
 	color: #E6E6E6;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -322,7 +337,7 @@ body {
 }
 
 .social-media-container img {
-	width: 125px;
+	width: 100px;
 	margin: 15px;
 	opacity: 0.7;
 	transition: all 0.3s ease-out;
@@ -337,4 +352,5 @@ body {
 .footer p {
 	color: #848484;
 	font-size: 13px;
+}
 }

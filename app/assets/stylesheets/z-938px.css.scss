@@ -1,37 +1,8 @@
-$navbar-default-bg: #F68122;
-$navbar-default-link-color: #FFF;
-$navbar-border-radius: none;
-$navbar-default-toggle-hover-bg: #D96E16;
-$navbar-default-toggle-icon-bar-bg: #FFF;
-$navbar-default-toggle-border-color: none;
-
-
-@import 'bootstrap';
-
-@import url(http://fonts.googleapis.com/css?family=Russo+One);
-@import url(http://fonts.googleapis.com/css?family=Armata);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
-@import url(http://fonts.googleapis.com/css?family=Russo+One);
-
-
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 938px) and (max-width: 1047px) {
 
 body {
-	padding-top: 100px;
-}
-
-.background {
-	width: 100%;
-	height: 100%;
-	background-image: url('ballislife.jpg');
-	background-size: cover;
-	 	-webkit-filter: blur(3px);
-  	-moz-filter: blur(3px);
-  	-o-filter: blur(3px);
-  	-ms-filter: blur(3px);
-  	filter: blur(3px);
-  	position: absolute;
-  	z-index: -10;
+	padding-top: 80px;
 }
 
 /* Navbar */
@@ -44,20 +15,21 @@ body {
 
 .navbar a {
 	padding: 15px;
-	margin: 20px;
+	margin: 10px;
 	font-family: 'Armata', sans-serif;
 	font-size: 15px;
+	top: 5px;
 }
 
 .navi-logo img {
-	width: 90px;
+	width: 80px;
 	height: auto;
 }
 
 .navi-logo a {
 	color: #76231F;
 	padding: 10px;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Russo One', sans-serif;
 	position: relative;
 	top: 10px;
@@ -80,6 +52,7 @@ body {
 	position: relative; 
 	right: 24%;
 	z-index: 3;
+	right: 25px;
 }
 
 .home {
@@ -88,20 +61,20 @@ body {
 	float: left;
 	position: relative;
 	top: 55px;
-	left: 40px;
+	left: 30px;
 }
 
 .home h1 {
 	font-family: 'Oswald', sans-serif;
 	color: #FFF;
 	text-shadow: 2px 2px black;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .home p {
 	color: #FFF;
 	text-shadow: 1px 1px black;
-	font-size: 18px;
+	font-size: 16px;
 	width: 60%;
 }
 
@@ -109,8 +82,63 @@ body {
 	color: #FFF;
 }
 
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 10px 15px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-2 {
+	background: #047BE6;
+	color: #fff;
+	box-shadow: 0 6px #1362A7;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2c {
+	border-radius: 5px;
+}
+
+.btn-2c:hover {
+	box-shadow: 0 4px #1362A7;
+	top: 2px;
+}
+
+.btn-2c:active {
+	box-shadow: 0 0 #1362A7;
+	top: 6px;
+}
+
+#appstore {
+	width: 200px;
+}
+
 #android {
-	font-size: 15px;
+	font-size: 12px;
 	margin-top: 15px;
 	padding-left: 3px;
 	color: #E6E6E6;
@@ -144,7 +172,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	top: -95px;
+	top: -30px;
   overflow: hidden;
   z-index: 1;
   padding-bottom: 35px;
@@ -169,14 +197,6 @@ body {
 	padding: 15px 15px 15px 0;
 }
 
-#search {
-	width: 13%;
-}
-
-#checkball {
-	width: 25%;
-}
-
 .home-tutorial-headers h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 80px;
@@ -195,6 +215,7 @@ body {
 .home-tutorial-content-container {
 	width: 100%;
 	padding: 15px 15px 15px 0;
+	margin: auto;
 }
 
 .tutorial-box {
@@ -222,6 +243,15 @@ body {
 	width: 100%;
 }
 
+#search {
+	width: 15%;
+}
+
+#checkball {
+	width: 25%;
+}
+
+
 .tutorial-box-header img {
 	height: auto;
 	float: left;
@@ -230,7 +260,7 @@ body {
 }
 
 .tutorial-box-header h1 {
-	font-size: 50px;
+	font-size: 40px;
 	width: 75%;
 	text-align: center;
 	padding: 0 0 25px 0;
@@ -248,7 +278,7 @@ body {
 
 .tutorial-box-p p {
 	color: #F2F2F2;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 /* Vision */
@@ -258,7 +288,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	top: -95px;
+	top: -30px;
 }
 
 .vision-container {
@@ -269,13 +299,13 @@ body {
 .vision-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 70px;
+	font-size: 65px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .vision-container p {
-	font-size: 22px;
+	font-size: 20px;
 	color: #FAFAFA;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -291,7 +321,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	margin-top: -95px;
+	margin-top: -30px;
 }
 
 .join-container {
@@ -302,13 +332,13 @@ body {
 .join-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 70px;
+	font-size: 65px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .join-container p {
-	font-size: 22px;
+	font-size: 20px;
 	color: #E6E6E6;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -322,7 +352,7 @@ body {
 }
 
 .social-media-container img {
-	width: 125px;
+	width: 115px;
 	margin: 15px;
 	opacity: 0.7;
 	transition: all 0.3s ease-out;
@@ -337,4 +367,5 @@ body {
 .footer p {
 	color: #848484;
 	font-size: 13px;
+}
 }

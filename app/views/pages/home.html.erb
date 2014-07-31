@@ -8,7 +8,7 @@
 		<br><br>
 		<p>Who’s Hoopin? is a mobile app that makes it easy to find pickup basketball games. Created by hoopers, for hoopers, Who’s Hoopin? is the first basketball app providing real time info to help you find your game.</p>
 		<div id="tutorial"></div>
-		<button class="btn btn-2 btn-2c"><%= link_to "Download Now", 'https://itunes.apple.com/us/app/whos-hoopin/id892504821?mt=8', target: "_blank" %></button>
+		<button class="btn btn-2 btn-2c"><%= link_to "Download Now", 'https://itunes.apple.com/us/app/whos-hoopin/id892504821?mt=8', target: "_blank", id: "download" %></button>
 		<%= image_tag "appstore.png", style: "opacity: 0.8;", id: "appstore" %>
 		<p id="android">Coming soon to Android Play Store. <a href="http://signup.whoshoopin.com">Sign up!</a></p>
 	</div>
@@ -28,7 +28,7 @@
 					<div class="tutorial-box-content">
 						<div class="tutorial-box-header clear">
 							<%= image_tag "map.png", id: "search" %>
-							<h1>Find Out.</h1>
+							<h1 id="findout">Find Out.</h1>
 						</div><!-- Tutorial Header -->
 
 						<div class="tutorial-box-p">
@@ -54,7 +54,7 @@
 					<div class="tutorial-box-content">
 						<div class="tutorial-box-header clear">
 							<%= image_tag "ball.png", id: "checkball" %>
-							<h1>Ball Up!</h1>
+							<h1 id="ballup">Ball Up!</h1>
 						</div><!-- Tutorial Header -->
 
 						<div class="tutorial-box-p">

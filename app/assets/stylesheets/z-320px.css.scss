@@ -1,0 +1,321 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	body {
+		padding-top: 0px;
+	}
+
+	.navi-logo img {
+		width: 55px;
+		height: auto;
+	}
+
+	.navi-logo a {
+		color: #76231F;
+		padding: 5px 5px 5px 15px;
+		margin: 0;
+		font-size: 20px;
+		font-family: 'Russo One', sans-serif;
+		position: relative;
+		top: 2px;
+	}
+
+	.navbar {
+		box-shadow: 1px 1px 1px #76231F;
+		padding: 5px;
+		outline: 1px solid transparent;
+	}
+
+	.iphone-container {
+		width: 38%;
+		padding: 10px;
+		float: right;
+		position: relative;
+	}
+
+	.iphone-container img {
+		height: auto;
+		width: 100%;
+		float: right;
+		position: relative; 
+		z-index: 3;
+		right: 10px;
+	}
+
+	.home {
+		width: 55%;
+		padding: 10px; 
+		float: left;
+		position: relative;
+		top: 55px;
+		left: 5px;
+	}
+
+	.home h1 {
+		font-family: 'Oswald', sans-serif;
+		color: #FFF;
+		text-shadow: 2px 2px black;
+		font-size: 25px;
+	}
+
+	.home p {
+		color: #FFF;
+		text-shadow: 1px 1px black;
+		font-size: 12px;
+		width: 100%;
+		position: relative;
+		top:-25px;
+	}
+
+	.btn {
+		border: none;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		cursor: pointer;
+		padding: 8px 75px;
+		display: inline-block;
+		margin: -20px 0 10px 0;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		outline: none;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.btn:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.btn-2 {
+		background: #047BE6;
+		color: #fff;
+		box-shadow: 0 6px #1362A7;
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
+	}
+
+	.btn-2c {
+		border-radius: 5px;
+	}
+
+	.btn-2c:hover {
+		box-shadow: 0 4px #1362A7;
+		top: 2px;
+	}
+
+	.btn-2c:active {
+		box-shadow: 0 0 #1362A7;
+		top: 6px;
+	}
+
+	#appstore {
+		width: 100px;
+	}
+
+	#android {
+		font-size: 9.5px;
+		margin-top: 30px;
+		padding-left: 3px;
+		color: #E6E6E6;
+	}
+
+	#android a {
+		color: #F68122;
+	}
+
+	#android a:hover {
+		color: #F79F57;	
+	}
+
+	.find-your-game {
+		background: url('floor.jpg') no-repeat;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		top: 10px;
+	  overflow: hidden;
+	  z-index: 1;
+	  padding-bottom: 35px;
+	}
+
+	.home-tutorial-headers h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 38px;
+		color: #FFF;
+		text-shadow: 2px 2px black;
+	}
+
+	.home-tutorial-headers p {
+		font-size: 14px;
+		color: #F2F2F2;	
+		letter-spacing: 1px;
+		font-family: 'Russo One', sans-serif;
+		text-shadow: 1px 1px black;
+	}
+
+	.tutorial-box {
+		width: 100%;
+		margin: 10px 0px 10px 0;
+		background-color: rgba(0,0,0,0.4);
+		box-shadow: 2px 2px 1px #61210B;
+		position: relative;
+		z-index: -1;
+		height: 165px;
+	}
+
+	.tutorial-box-content {
+		width: 90%;
+		margin: auto;
+		position: relative; 
+		opacity: 1;
+		z-index: 1;
+		padding: 5px;
+	}
+
+	.tutorial-box-header {
+		width: 100%;
+	}
+
+	#search {
+		width: 15%;
+		margin-left: 8px;
+	}
+
+	#checkball {
+		width: 25%;
+	}
+
+	.tutorial-box-header img {
+		height: auto;
+		float: left;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	.tutorial-box-header h1 {
+		font-size: 35px;
+		width: 75%;
+		text-align: center;
+		padding: 0 0 15px 0;
+		color: #FFF;
+		text-shadow: 2px 2px black;
+		display: inline-block;
+		float: left;
+		font-family: 'Oswald', sans-serif;	
+	}
+
+	#findout {
+		position: relative;
+		left: 15px;
+	}
+
+	#ballup {
+		position: relative;
+		right: 5px;
+	}
+
+	.tutorial-box-p {
+		width: 100%;
+		margin: auto;
+	}
+
+	.tutorial-box-p p {
+		color: #F2F2F2;
+		font-size: 12px;
+	}
+
+	.vision {
+		background-color: #0E5ED7;
+		width: 100%;
+		padding: 50px 0;
+		position: relative;
+		top: 10px;
+	}
+
+	.vision-container {
+		width: 90%;
+		margin: auto;
+	}
+
+	.vision-container h1 {
+		color: #FFF;
+		font-family: 'Oswald', sans-serif;
+		font-size: 38px;
+		text-shadow: 2px 2px black;
+		text-align: center;
+	}
+
+	.vision-container p {
+		font-size: 14px;
+		color: #FAFAFA;	
+		letter-spacing: 1px;
+		font-family: 'Armata', sans-serif;
+		text-shadow: 1px 1px black;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	.join {
+		background-color: #2E2E2E;
+		border-top: 3px solid #FFF;	
+		width: 100%;
+		padding: 50px 0;
+		position: relative;
+		margin-top: 4px;
+	}
+
+	.join-container {
+		width: 90%;
+		margin: auto;
+	}
+
+	.join-container h1 {
+		color: #FFF;
+		font-family: 'Oswald', sans-serif;
+		font-size: 38px;
+		text-shadow: 2px 2px black;
+		text-align: center;
+	}
+
+	.join-container p {
+		font-size: 14px;
+		color: #E6E6E6;	
+		letter-spacing: 1px;
+		font-family: 'Armata', sans-serif;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	.social-media-container {
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.social-media-container img {
+		width: 50px;
+		margin: 10px;
+		opacity: 0.7;
+		transition: all 0.3s ease-out;
+		border: 3px solid #FFF;
+		padding: 0;
+	}
+
+	.social-media-container img:hover {
+		opacity: 1;
+	}
+
+	.footer p {
+		color: #848484;
+		font-size: 10px;
+	}
+}

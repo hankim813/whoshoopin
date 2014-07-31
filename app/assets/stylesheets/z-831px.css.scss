@@ -1,9 +1,10 @@
-/* iPads (landscape) ----------- */
-@media only screen and (min-width: 769px) and (max-width : 1048px) {
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 831px) and (max-width: 937px) {
 
 body {
-	padding-top: 80px;
+	padding-top: 50px;
 }
+
 
 /* Navbar */
 
@@ -14,22 +15,23 @@ body {
 }
 
 .navbar a {
-	padding: 15px;
-	margin: 10px;
+	padding: 10px;
+	margin: 5px;
 	font-family: 'Armata', sans-serif;
-	font-size: 15px;
-	top: 5px;
+	font-size: 13px;
+	position: relative;
+	top: 10px;
 }
 
 .navi-logo img {
-	width: 80px;
+	width: 75px;
 	height: auto;
 }
 
 .navi-logo a {
 	color: #76231F;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'Russo One', sans-serif;
 	position: relative;
 	top: 10px;
@@ -38,21 +40,20 @@ body {
 /* Home */
 
 .iphone-container {
-	width: 50%;
-	padding: 25px;
+	width: 45%;
 	float: right;
 	position: relative;
-	top: 75px;
+	top: 90px;
 }
 
 .iphone-container img {
-	width: auto;
-	height: 100%;
+	height: auto;
+	width: 80%;
 	float: right;
 	position: relative; 
 	right: 24%;
 	z-index: 3;
-	right: 25px;
+	left: 1px;
 }
 
 .home {
@@ -61,7 +62,7 @@ body {
 	float: left;
 	position: relative;
 	top: 55px;
-	left: 30px;
+	left: 15px;
 }
 
 .home h1 {
@@ -75,7 +76,7 @@ body {
 	color: #FFF;
 	text-shadow: 1px 1px black;
 	font-size: 16px;
-	width: 60%;
+	width: 90%;
 }
 
 .home button a {
@@ -83,74 +84,77 @@ body {
 }
 
 .btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 10px 15px 0px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
+		border: none;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		background: none;
+		cursor: pointer;
+		padding: 25px 100px;
+		display: inline-block;
+		margin: 10px 0 20px 0;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		outline: none;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
 
-.btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.btn-2 {
-	background: #047BE6;
-	color: #fff;
-	box-shadow: 0 6px #1362A7;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
-}
+	.btn:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.btn-2 {
+		background: #047BE6;
+		color: #fff;
+		box-shadow: 0 6px #1362A7;
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition: none;
+	}
 
-.btn-2c {
-	border-radius: 5px;
-}
+	.btn-2c {
+		border-radius: 5px;
+	}
 
-.btn-2c:hover {
-	box-shadow: 0 4px #1362A7;
-	top: 2px;
-}
+	.btn-2c:hover {
+		box-shadow: 0 4px #1362A7;
+		top: 2px;
+	}
 
-.btn-2c:active {
-	box-shadow: 0 0 #1362A7;
-	top: 6px;
-}
+	.btn-2c:active {
+		box-shadow: 0 0 #1362A7;
+		top: 6px;
+	}
 
-#appstore {
-	width: 200px;
-}
+	#appstore {
+		width: 150px;
+	}
 
-#android {
-	font-size: 12px;
-	margin-top: 15px;
-	padding-left: 3px;
-	color: #E6E6E6;
-}
+	#android {
+		font-size: 13px;
+		position: relative;
+		top: 10px;
+		left: 0px;
+		margin-top: 3px;
+		padding-left: 3px;
+		color: #E6E6E6;
+	}
 
-#android a {
-	color: #F68122;
-}
+	#android a {
+		color: #F68122;
+	}
 
-#android a:hover {
-	color: #F79F57;	
-}
+	#android a:hover {
+		color: #F79F57;	
+	}
 
 .container {
 	width: 95%;
@@ -172,7 +176,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	top: -30px;
+	top: -10px;
   overflow: hidden;
   z-index: 1;
   padding-bottom: 35px;
@@ -226,7 +230,7 @@ body {
 	box-shadow: 2px 2px 1px #61210B;
 	position: relative;
 	z-index: -1;
-	height: 235px;
+	height: 210px;
 }
 
 .tutorial-box-content {
@@ -235,7 +239,7 @@ body {
 	position: relative; 
 	opacity: 1;
 	z-index: 1;
-	padding: 15px;
+	padding: 10px;
 }
 
 .tutorial-box-header {
@@ -243,13 +247,13 @@ body {
 }
 
 #search {
-	width: 15%;
+	width: 18%;
 }
 
 #checkball {
 	width: 25%;
+	padding-top: 5px;
 }
-
 
 .tutorial-box-header img {
 	height: auto;
@@ -259,7 +263,7 @@ body {
 }
 
 .tutorial-box-header h1 {
-	font-size: 40px;
+	font-size: 30px;
 	width: 75%;
 	text-align: center;
 	padding: 0 0 25px 0;
@@ -270,6 +274,21 @@ body {
 	font-family: 'Oswald', sans-serif;	
 }
 
+	#findout {
+		position: relative;
+		left: 5px;
+	}
+
+	#ballup {
+		position: relative;
+		right: 10px;
+	}
+
+#search-p {
+	position: relative;
+	top: 10px;
+}
+
 .tutorial-box-p {
 	width: 100%;
 	margin: auto;
@@ -277,7 +296,7 @@ body {
 
 .tutorial-box-p p {
 	color: #F2F2F2;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 /* Vision */
@@ -287,7 +306,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	top: -30px;
+	top: -10px;
 }
 
 .vision-container {
@@ -298,13 +317,13 @@ body {
 .vision-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 65px;
+	font-size: 50px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .vision-container p {
-	font-size: 20px;
+	font-size: 18px;
 	color: #FAFAFA;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -320,7 +339,7 @@ body {
 	width: 100%;
 	padding: 50px 0;
 	position: relative;
-	margin-top: -30px;
+	margin-top: -10px;
 }
 
 .join-container {
@@ -331,13 +350,13 @@ body {
 .join-container h1 {
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
-	font-size: 65px;
+	font-size: 50px;
 	text-shadow: 2px 2px black;
 	text-align: center;
 }
 
 .join-container p {
-	font-size: 20px;
+	font-size: 18px;
 	color: #E6E6E6;	
 	letter-spacing: 1px;
 	font-family: 'Armata', sans-serif;
@@ -351,7 +370,7 @@ body {
 }
 
 .social-media-container img {
-	width: 115px;
+	width: 100px;
 	margin: 15px;
 	opacity: 0.7;
 	transition: all 0.3s ease-out;
